@@ -1,3 +1,14 @@
+/* This is media query style sheet */
+.container{
+    overflow:hidden;
+
+}
+.nav-toggle{
+    display:none;
+}
+.example-card{
+    height:300px;
+}
 @media screen and (max-width:991px){
     .nav-toggle{
     display:block;
@@ -27,8 +38,27 @@
     }
     .primary-button{
         width:100%;
+        text-align: center;
     }
     .header-right img{
-        width: 100%;
+        width:100%;
     }
+    .big-feature-container{
+        flex-direction: column;
+    }   
+    #spl-cont{
+        flex-direction: column-reverse;
+    }
+    .big-feature-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .link-column{
+        align-items: center;
+    }
+
 }
