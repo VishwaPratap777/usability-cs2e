@@ -1,7 +1,5 @@
-/* This is media query style sheet */
 .container{
     overflow:hidden;
-
 }
 .nav-toggle{
     display:none;
@@ -60,5 +58,16 @@
     .link-column{
         align-items: center;
     }
+}
 
+@media screen and (max-width: 479px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    :root{
+        --padding-inline-section: 8px;
+    }
 }
